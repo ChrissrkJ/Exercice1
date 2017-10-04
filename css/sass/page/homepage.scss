@@ -1,0 +1,89 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#homepage {
+	
+
+	background-image: url(../images/bg_body.jpg);
+	
+	header {
+		background-image: url(../images/bg_header.jpg);
+		background-repeat: no-repeat;
+
+	}
+
+
+	/*MENU*/
+
+	.menu_horizontal  {
+		display:flex;
+	    background-color: rgba(108, 156, 69, 0.4);
+	    justify-content: flex-end;
+	    padding-right: 505px;
+	    
+	   
+	}
+
+	.menu{
+		color:#fff;
+		margin:14px;
+		font-family: Arial, sans-serif;
+		font-size: 12px;
+	}
+	
+
+	.logo {
+
+		padding-top: 65px;
+		padding-left: 160px;
+	}
+
+	/*BANNIERE*/
+
+	.entete {
+		margin: auto;
+    	width: 80%;
+    	font-family: Arial,sans-serif;
+    	}
+
+    figure {
+    	margin-left: 0px;
+    	margin-top: 48px;
+    }
+
+
+    figure a {
+    	font-family: Arial, sans-serif;
+		font-size: 12px;
+		display:flex;
+		justify-content: flex-end;
+		padding-right: 370px;
+    	color:#1f6b21;
+    }
+    
+
+   .img_h2{
+   		padding-bottom: 35px;
+   }
+
+
+   .entete div {
+   		display: inline-block;
+	    width: 22%;
+	    padding: 40px 0px 20px 35px;
+   }
+   .entete div img, .entete div h3 {
+   		display: inline-block;
+   }
+
+   .entete div h3{
+   		font-family: 'Lato', sans-serif;
+    	font-size: 30px;
+   }
+
+
+   aside {
+   	margin: 20px;
+   }
+}

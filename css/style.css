@@ -6,46 +6,208 @@
   background-image: url(../images/bg_body.jpg);
   /*MENU*/
   /*BANNIERE*/ }
-  #homepage header {
+  header {
     background-image: url(../images/bg_header.jpg);
     background-repeat: no-repeat; }
-  #homepage .menu_horizontal {
+  
+  .menu_horizontal {
     display: flex;
     background-color: rgba(108, 156, 69, 0.4);
     justify-content: flex-end;
-    padding-right: 505px; }
-  #homepage .menu {
+    padding-right: 112px; }
+  
+  .menu {
     color: #fff;
     margin: 14px;
     font-family: Arial, sans-serif;
     font-size: 12px; }
-  #homepage .logo {
-    padding-top: 65px;
-    padding-left: 160px; }
-  #homepage .entete {
-    margin: auto;
+  
+  .logo {
+    padding-top: 10px;
+    padding-left: 160px;
+  }
+
+  .entete {
+    margin-left: 155px;
+    margin-top: 90px; 
     width: 80%;
     font-family: Arial,sans-serif; }
-  #homepage figure {
-    margin-left: 0px;
-    margin-top: 48px; }
-  #homepage figure a {
+
+  figure {
+    margin-left: 25px;
+    margin-top: 115px; 
+  }
+
+  figure a {
     font-family: Arial, sans-serif;
     font-size: 12px;
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 370px;
-    color: #1f6b21; }
-  #homepage .img_h2 {
-    padding-bottom: 35px; }
-  #homepage .entete div {
-    display: inline-block;
-    width: 22%;
-    padding: 40px 0px 20px 35px; }
-  #homepage .entete div img, #homepage .entete div h3 {
-    display: inline-block; }
-  #homepage .entete div h3 {
-    font-family: 'Lato', sans-serif;
-    font-size: 30px; }
+    display: block;
+    color: #1f6b21;
+    text-align: right;
+    padding-right: 90px;
+  }
 
+    .img_h2, .img_tasse {
+      vertical-align: text-top;
+    }
+
+  .entete div {
+    display: inline-block;
+    width: 29%;
+    padding: 20px 0px 70px 29px; 
+  }
+
+  .entete div img, .entete div h3 {
+    display: inline-block; 
+  }
+
+  .entete div h3 {
+    font-size: 25px;
+    font-weight: lighter; 
+  }
+
+  .section2 {
+    margin-left: 125px;
+  }
+
+  aside {
+    width: 55%;
+    display: inline-block;
+    vertical-align: text-top;
+    margin: auto;
+  }
+  .actus {
+   background-image: url(../images/bg_news.jpg);
+   background-repeat: no-repeat;
+   width: 89%;
+   margin: auto;
+  }
+
+  .actus_content {
+    width: 90%;
+    padding:70px 0px 60px 30px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+  }
+
+  .actus_details {
+      width: 85%;
+      display: inline-block;
+      padding-bottom: 15px;
+      vertical-align: text-top;
+    }
+  
+
+  .actus_content time {
+    display: inline-block;
+    vertical-align: text-top;
+    padding: 19px 25px 16px 9px; 
+    background-image: url(../images/bg_date.png);
+    background-repeat: no-repeat;
+    font-family: fantasy;
+    font-size: 15px;
+    color:#b51616;
+  }
+
+
+
+  .actus_details .more {
+    padding-top: 15px;
+  }
+
+  .more a {
+     color: #b51616;
+  }
+  .espaces {
+    width: 30%;
+    display: inline-block;
+    vertical-align: text-top;
+    font-family: 'Arial', sans-serif;
+  }
+
+  .esp_title {
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    height: 20px;
+  }
+  .esp_bg{
+    height: 2px;
+    padding-bottom: 35px;
+  }
+
+  .esp_villes{
+    display: inline-block;
+    vertical-align: text-top;
+    margin-top: 15px;
+    padding-right: 70px;
+    color: #69901b;
+    
+  }
+
+  form #form_mail {
+    width: 128px;
+    height: 20px;
+    border: 2px solid;
+    border-radius: 4px;
+    color: rgba(68, 67, 67, 0.48);
+  }
+
+  form #form_login {
+    border: 2px solid #e60202;
+    border-radius: 4px;
+    width: 55%;
+    height: 20px;
+    background-color: #e60202;
+    color: #fff;
+    margin-top: 5px;
+  }
+
+  .espaces ul {
+    list-style-type: none;
+  }
+  
+  form, .pot {
+    display: inline-block;
+    vertical-align: text-top;
+  }
+  .pot {
+    width:60%;
+    
+  }
+
+  footer {
+    background-image: url(../images/bg_footer.png);
+    background-repeat: no-repeat;
+    margin-left: 160px;
+    font-family: 'Arial', sans-serif;
+    font-size: 12px;
+  }
+  footer .reseaux{
+    width: 13%;
+
+  }
+
+  footer .ico_reseaux {
+    width: 45px;
+  }
+
+  footer .droits {
+    text-align: right;
+    width: 50%;
+    margin-left: 125px;
+  }
+
+  footer .reseaux, footer .droits, footer .ico_reseaux, .livingt {
+    display: inline-block;
+    vertical-align: text-top;
+    padding-top: 15px;
+  }
+  
+  .livingt {
+    color:rgb(44, 123, 4);
+    font-weight: bold;
+    padding-left: 5px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
